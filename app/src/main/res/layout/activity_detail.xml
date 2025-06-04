@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/posterDetailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/titleDetailTextView"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/yearDetailTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/runtimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/directorTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/genreTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/countryTextView" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:id="@+id/plotTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
